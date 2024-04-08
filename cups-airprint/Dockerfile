@@ -13,7 +13,7 @@ RUN apt-get update \
         avahi-daemon=0.8-10 \
         libnss-mdns=0.15.1-3 \
         dbus=1.14.10-1~deb12u1 \
-        colord=1.4.6-2.2 \
+        colord=1.4.6-r4 \
         printer-driver-all=0.20210903 \
         printer-driver-gutenprint=5.3.4.20220624T01008808d602-1 \
         openprinting-ppds=20230202-1 \
