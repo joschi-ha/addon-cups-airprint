@@ -1,10 +1,15 @@
-name: CUPS
-version: "1.0"
-slug: cupsik
-description: A CUPS print server with working AirPrint
+---
+name: "CUPS"
+version: "dev"
+slug: "cups-airprint"
+description: "A CUPS print server with working AirPrint"
+url: "https://github.com/joschi/homeassistant-addons"
 arch:
-  - amd64
   - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
 usb: true
 init: false
 homeassistant_api: true
@@ -15,7 +20,8 @@ ports:
 ports_description:
   631/tcp: For other devices on the local network to print to this server
   631/udp: For other devices on the local network to print to this server
-# ingress: false
+ingress: true
+ingress_port: 0
+panel_icon: mdi:printer
 map:
   - config:rw
-
