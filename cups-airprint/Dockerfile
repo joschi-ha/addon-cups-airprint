@@ -8,8 +8,8 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
         sudo=1.9.13p3-1+deb12u1 \
-        locales=2.36-9+deb12u4 \
-        cups=2.4.2-3+deb12u5 \
+        locales=2.36-9+deb12u8 \
+        cups=2.4.2-3+deb12u7 \
         avahi-daemon=0.8-10 \
         libnss-mdns=0.15.1-3 \
         dbus=1.14.10-1~deb12u1 \
@@ -24,7 +24,7 @@ RUN apt-get update \
         printer-driver-cups-pdf=3.0.1-14 \
         gnupg2=2.2.40-1.1 \
         lsb-release=12.0-1 \
-        nano=7.2-1 \
+        nano=7.2-1+deb12u1 \
         samba=2:4.17.12+dfsg-0+deb12u1 \
         bash-completion=1:2.11-6 \
         procps=2:4.0.2-3 \
