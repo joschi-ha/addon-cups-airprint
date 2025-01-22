@@ -10,7 +10,7 @@ RUN apt-get update \
         sudo=1.9.13p3-1+deb12u1 \
         locales=2.36-9+deb12u9 \
         cups=2.4.2-3+deb12u8 \
-        avahi-daemon=0.8-10 \
+        avahi-daemon=0.8-10+deb12u1 \
         libnss-mdns=0.15.1-3 \
         dbus=1.14.10-1~deb12u1 \
         colord=1.4.6-2.2 \
