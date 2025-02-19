@@ -3,7 +3,7 @@ name: "CUPS"
 version: "dev"
 slug: "cups-airprint"
 description: "A CUPS print server with working AirPrint"
-url: "https://github.com/joschi/homeassistant-addons"
+url: "https://github.com/joschi-ha/addon-cups-airprint"
 arch:
   - aarch64
   - amd64
