@@ -25,7 +25,7 @@ RUN apt-get update \
         gnupg2=2.2.40-1.1+deb12u2 \
         lsb-release=12.0-1 \
         nano=7.2-1+deb12u1 \
-        samba=2:4.17.12+dfsg-0+deb12u1 \
+        samba=2:4.17.12+dfsg-0+deb12u3 \
         bash-completion=1:2.11-6 \
         procps=2:4.0.2-3 \
         whois=5.5.17 \
