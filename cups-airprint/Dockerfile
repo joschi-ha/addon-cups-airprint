@@ -22,7 +22,7 @@ RUN apt-get update \
         hplip=3.22.10+dfsg0-2 \
         printer-driver-foo2zjs=20200505dfsg0-2 \
         printer-driver-cups-pdf=3.0.1-14 \
-        gnupg2=2.2.40-1.1 \
+        gnupg2=2.2.40-1.1+deb12u2 \
         lsb-release=12.0-1 \
         nano=7.2-1+deb12u1 \
         samba=2:4.17.12+dfsg-0+deb12u1 \
